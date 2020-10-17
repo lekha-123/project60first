@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+#line{
+    width:150px;
+    margin: auto 675px;
+    background-color: chartreuse;
+    height:10px;
+}
+.image1{
+    width:350px;
+    border: 10px solid ;
+    border-color: blueviolet;
+    height:350px;
+    border-radius: 20px;
+    border-width:15px;
+    transition: transform .2s;
+}
+.image1:hover{
+    transform: scale(0.8);
+}
